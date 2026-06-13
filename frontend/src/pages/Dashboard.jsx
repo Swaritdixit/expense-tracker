@@ -68,7 +68,8 @@ useEffect(()=>{getExpenses()
   });
 },[]);
 return(<div className="app-container">
-    <Header />
+    <Header
+    logout={logout} />
     <ExpenseForm
        addExpense={addExpense}
        updateExpense={updateExpense}
