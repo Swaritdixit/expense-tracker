@@ -1,0 +1,22 @@
+.expense-form{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+}
+.form-input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    flex:10;
+}
+.submit-btn{
+    padding:10px 15px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    background-color:#e9c6ee;
+}
+.submit-btn:hover{
+    opacity:0.8;
+}

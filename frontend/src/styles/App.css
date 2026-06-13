@@ -1,0 +1,23 @@
+body{
+  margin:0;
+  background:#f4f4f4;
+  font-family:Arial,sans-serif;
+}
+.app-container{
+  width:80%;
+  max-width:900 px;
+  margin:40px auto;
+}
+.total-card{
+  background:white;
+  margin-top:20px;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+@media(max-width:600px){
+  .app-container{
+    width:95%;
+  }
+}
