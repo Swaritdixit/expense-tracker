@@ -13,7 +13,7 @@ function Dashboard() {
  const[selectedCategory,setSelectedCategory]=useState("All");
 const[searchTerm,setSearchTerm]=useState("");
 
-const navigate=usenavigate();
+const navigate=useNavigate();
 function logout(){
     localStorage.removeItem("token");
     navigate("/");
