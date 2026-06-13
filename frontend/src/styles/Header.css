@@ -4,3 +4,16 @@
     font-size:2.5rem;
     font-weight:bold;
 }
+.logout{
+        border:none;
+    padding:8px 12px;
+    border-radius: 6px;
+    cursor:pointer;
+    margin-bottom:5px;
+    transition:1s;
+    background:#e8e68a;
+    color:#32044f;
+}
+.logout:hover{
+    opacity:0.8;
+}
